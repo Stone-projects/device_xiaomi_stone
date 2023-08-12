@@ -4,3 +4,6 @@ allow untrusted_app proc_zoneinfo:file r_file_perms;
 allow untrusted_app tmpfs:lnk_file { read };
 allow untrusted_app shell_test_data_file:dir { search };
 allow untrusted_app app_data_file:file { execute };
+
+# Incremental
+get_prop(untrusted_app, incremental_prop)
