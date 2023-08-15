@@ -137,6 +137,9 @@ vendor/etc/usb_audio_policy_configuration.xml
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib64/soundfx/libmisoundfx.so
 
+# Audio FX modules - from cheetah-tq3a.230605.012
+vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+
 # Audio FX modules
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
