@@ -610,6 +610,9 @@ vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/libtinyxml2_1.so
 
+# Display SV
+vendor/etc/SVIConfig.xml
+
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
