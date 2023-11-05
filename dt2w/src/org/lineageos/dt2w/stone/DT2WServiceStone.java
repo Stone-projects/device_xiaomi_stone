@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.sm6375;
+package org.lineageos.dt2w.stone;
 
 import android.app.Service;
 import android.content.ContentResolver;
@@ -13,8 +13,8 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
-public class DT2WServiceSM6375 extends Service {
-    private static final String TAG = "DT2WServiceSM6375";
+public class DT2WServiceStone extends Service {
+    private static final String TAG = "DT2WServiceStone";
     private Context mContext;
     private Handler mHandler;
     private CustomSettingsObserver mCustomSettingsObserver;

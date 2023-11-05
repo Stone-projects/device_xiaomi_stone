@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.sm6375;
+package org.lineageos.dt2w.stone;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.UserHandle;
 
 public class OnBootCompleteReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-        Intent sIntent = new Intent(context, DT2WServiceSM6375.class);
+        Intent sIntent = new Intent(context, DT2WServiceStone.class);
         context.startServiceAsUser(sIntent, UserHandle.CURRENT);
     }
 }
