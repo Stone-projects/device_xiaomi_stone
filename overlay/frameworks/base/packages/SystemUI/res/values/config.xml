@@ -75,4 +75,10 @@
 
     <!-- Update battery info every second when device is charging -->
     <bool name="config_alternateFastchargeInfoUpdate">true</bool>
+
+    <!-- Window level Blur -->
+    <dimen name="max_window_blur_radius">90px</dimen>
+
+    <!-- Whether show refresh rate QS tile -->
+    <bool name="config_showRefreshRateQsTile">true</bool>
 </resources>
