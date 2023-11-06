@@ -36,6 +36,6 @@ android_app {
 prebuilt_etc {
     name: "privapp-permissions_org.lineageos.dt2w.stone",
     sub_dir: "permissions",
-    src: "privapp-permissions_org.lineageos.dt2w.sm6375.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.stone.xml",
     filename_from_src: true,
 }
