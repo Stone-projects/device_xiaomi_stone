@@ -70,9 +70,6 @@ on boot
     chmod 0777 /sys/class/drm/card0-DSI-1/disp_param
     chmod 0777 /sys/class/drm/card0-DSI-1/mipi_reg
 
-    # setting RLIMIT_RTPRIO allows binder RT priority inheritance
-    rlimit rtprio 10 10
-
     # touch
     chown system system /sys/class/touch/touch_dev/palm_sensor
     chmod 0664 /sys/class/touch/touch_dev/palm_sensor
