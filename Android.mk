@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter moonstone peux stone sunstone veux,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),stone)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
